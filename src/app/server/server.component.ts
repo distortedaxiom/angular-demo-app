@@ -4,6 +4,11 @@ import { Component } from "@angular/core";
     selector: 'app-server',
     templateUrl: './server.component.html',
     // styleUrls: ['./app.component.css']
+    styles: [`
+        .online {
+            color: white;
+        }
+    `]
 })
 
 export class ServerComponent {
